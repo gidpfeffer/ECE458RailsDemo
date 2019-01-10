@@ -18,4 +18,28 @@ This will launch the server on port 3000 locally. If you do not want to install 
 
 ```buildAndRun.sh```
 
-This will build the docker container, run tests, and then launch the application, binding port 3000 on the container to port 3000 locally..
+This will build the docker container, run tests, and then launch the application, binding port 3000 on the container to port 3000 locally.
+
+## Useful Rails Command Line Tools
+
+### Launching the server
+
+```bin/rails server```
+
+### Generating a Controller
+
+```bin/rails generate controller [Controller name] [action name, for example index]```
+
+### Generating a Model
+
+This step will generate a new migration, which can be viewed in /db/migrate
+
+```bin/rails generate model [Model Name] [Fields for the Model, ex. title:string text:text]```
+
+### Running Migrations
+
+```bin/rails db:migrate```
+
+### Viewing Routes for Your Application
+
+```bin/rails routes```
