@@ -1,5 +1,7 @@
 # ECE458RailsDemo
 
+Blog available [here](http://vcm-8109.vm.duke.edu:3000). Will be taken down soon after demo.
+
 ## About Rails
 
 Rails is an open source server-side web application framework written in Ruby. Rails is a model view controller framework (MVC) and provides out of the box support for database, web services and API endpoints, and or rendering webpages. Many popular websites are built on Rails (Hulu, Airbnb, Groupon, github, and more).
